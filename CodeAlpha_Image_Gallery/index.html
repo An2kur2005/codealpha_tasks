@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUMINA ARCHIVE | Premium Visual Vault</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="system-status">
+        <div class="status-left"> 
+            AUTHOR: <span id="latency">ANKUR_DEY</span>
+        </div>
+        <div class="status-right">
+            PHOTOS: <span id="assetCount">0</span> 
+        </div>
+    </div>
+
+    <div class="main-container">
+        <header>
+            <h1 class="glitch-title">LUMINA <span>ARCHIVE</span></h1>
+            <p class="subtitle">A PRESERVED COLLECTION OF VISUAL ESSENCE</p>
+            
+            <div class="command-bar-container">
+                <div class="command-bar">
+                    <input type="text" id="newCategoryName" placeholder="COLLECTION NAME...">
+                    <label for="file-upload" class="import-btn">UPLOAD IMAGES</label>
+                    <input type="file" id="file-upload" accept="image/*" multiple onchange="handleUpload(event)">
+                </div>
+            </div>
+
+            <div class="filter-bar" id="filterBar">
+                <button class="filter-node active" onclick="filterSelection('all')">ALL</button>
+                <button class="filter-node fav-node" onclick="filterSelection('fav')">FAVOURITE</button>
+            </div>
+        </header>
+
+        <main class="gallery-grid" id="galleryGrid">
+            </main>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-tools">
+            <button class="tool-btn" onclick="toggleFullscreen()">FULLSCREEN</button>
+            <button class="tool-btn" onclick="downloadImage()">DOWNLOAD</button>
+        </div>
+        <button class="nav prev" onclick="changeImage(-1)">&#10094;</button>
+        <div class="content">
+            <img id="lightbox-img" src="">
+        </div>
+        <button class="nav next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
