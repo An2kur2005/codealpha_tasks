@@ -1,24 +1,36 @@
-📁 LUMINA ARCHIVE
-LUMINA ARCHIVE is a premium, high-performance visual vault designed with a sleek "Neural OS" aesthetic. It allows users to import, categorize, and manage digital assets through a professional, responsive interface.
+CodeAlpha Frontend Development Internship
+This repository contains my completed projects for the CodeAlpha Frontend Development Internship. These tasks demonstrate my ability to build functional, responsive, and aesthetically modern web applications.
 
-🚀 Live Demo
-luminaimagegallery.netlify.app
+🚀 Projects Included
+1. Image Gallery
+A high-performance visual archive designed with a focus on layout and interaction.
 
-✨ Features
-Single-Line Command Bar: Easily name a collection and import assets in one sleek row.
+Key Features: Fully mobile-responsive grid, glowing hover effects, and integrated image management.
 
-Smart Filtering: Automatically creates category buttons based on your collection names.
+Design Aesthetic: "Cyber-OS" style with neon accents and Ruby Red highlights.
 
-Prime Selection (Red): A dedicated "Favorite" system with a ruby-red glow for priority images.
+Tech: HTML, CSS, JavaScript.
 
-Data Purge: A delete button is placed directly below the favorite button on every image for quick removal.
+2. Interactive Calculator
+A logic-based application handling mathematical operations with a sleek, technical interface.
 
-Lumina Lightbox: View images in full-screen with an integrated download feature.
+Key Features: Real-time calculation logic, keyboard support, and a clean "Command Bar" style layout.
 
-Mobile Responsive: Fully optimized for seamless use on phones, tablets, and desktops.
+Tech: JavaScript, CSS Flexbox/Grid.
 
-🛠 Tech Stack
-HTML, CSS, JavaScript
+3. Personal Portfolio Website
+A professional showcase of my technical engineering background and software development skills.
+
+Key Features: Single-page navigation, technical project cards, and a responsive contact section.
+
+Tech: HTML, CSS, JavaScript.
+
+🛠️ Tech Stack & Skills
+Languages: HTML, CSS, JavaScript.
+
+Design Principles: Responsive Web Design, UI/UX Optimization, CSS Animations.
+
+Tools: Git, GitHub, VS Code.
 
 👤 Author
 Ankur Dey
